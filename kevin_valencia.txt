@@ -2,5 +2,10 @@ public class PrimeraClase {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(metro);
+		Scanner entrada = new Scanner(System.in);
+		int nota = Integer.parseInt(JOptionPane.showInputDialog("Ingrese una nota"));
+		if(nota > 3) {
+			System.out.println("Kevin gano la asignatura");
 	}
 }
+
